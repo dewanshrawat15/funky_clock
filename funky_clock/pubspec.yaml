@@ -1,0 +1,31 @@
+name: funky_clock
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  intl: any
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Light.ttf
+          weight: 200
+        - asset: assets/fonts/Montserrat/Montserrat-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Montserrat/Montserrat-Medium.ttf
+          weight: 300
+        - asset: assets/fonts/Montserrat/Montserrat-Regular.ttf
